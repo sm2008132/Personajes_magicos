@@ -2,10 +2,10 @@
 class Personaje {
 
     private String nombre;
-    private int edad;
+    private integer edad;
     private String tipo;
 
-    public Personaje(String nombre, int edad, String tipo) {
+    public Personaje(String nombre, integer edad, String tipo) {
         this.nombre = nombre;
         this.edad = edad;
         this.tipo = tipo;
@@ -16,7 +16,7 @@ class Personaje {
         return nombre;
     }
 
-    public int getEdad() {
+    public integer getEdad() {
         return edad;
     }
 
@@ -86,3 +86,4 @@ public class Reino {
         p3.Accion();
     }
 }
+
