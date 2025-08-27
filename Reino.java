@@ -70,9 +70,9 @@ class Aventurero extends Personaje {
 public class Reino {
     public static void main(String[] args) {
        
-        Personaje p1 = new Gladiador("Gaitan", 28);
-        Personaje p2 = new Hechizero("Zamora", 35);
-        Personaje p3 = new Aventurero("Roman", 20);
+        Personaje p1 = new Gladiador("Gaitan", 19);
+        Personaje p2 = new Hechizero("Zamora", 18);
+        Personaje p3 = new Aventurero("Roman", 16);
 
         
         p1.presentarse();
@@ -86,4 +86,5 @@ public class Reino {
         p3.Accion();
     }
 }
+
 
